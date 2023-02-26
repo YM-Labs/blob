@@ -35,7 +35,6 @@ jobs:
       with:
         name: production
         path: /home/runner/work/blob/blob
-        
     - uses: actions/upload-artifact@v3
       with:
         source_dir: '/home/runner/work/blob/blob/'
