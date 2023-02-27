@@ -78,7 +78,7 @@
   "scripts": {
     "start:lambda": "netlify-lambda serve src/lambda",
     "build:lambda": "netlify-lambda build src/lambda",
-    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true CI=1 gatsby build  --log-pages",
+    "build": "gatsby clean && GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true CI=1 gatsby build  --log-pages",
     "build-serve": "yarn build && gatsby serve",
     "develop-watch": "npm run develop",
     "build-main": "rm -rf .cache public",
