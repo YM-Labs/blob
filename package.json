@@ -84,8 +84,7 @@
     "build-main": "rm -rf .cache public",
     "develop": "NODE_OPTIONS=--max-old-space-size=8192 ./node_modules/.bin/gatsby develop -H 0.0.0.0",
     "form-css-upload": "node-sass --watch src/components/ContentfulModules/ModuleFormIFrame.module.scss static/form-style/FormModuleUpload.css",
-    "form-css-overrides": "node-sass --watch src/components/ContentfulModules/ModuleFormIFrameOverrides.module.scss static/form-style/FormModule.css",
-    "postinstall": "npx rimraf node_modules/errlop/edition-browsers"
+    "form-css-overrides": "node-sass --watch src/components/ContentfulModules/ModuleFormIFrameOverrides.module.scss static/form-style/FormModule.css"
   },
   "apollo": {
     "service": {
