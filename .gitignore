@@ -13,7 +13,7 @@ public/
 lambda/*
 package-lock.json
 static/forms/*.html
-apollo.config.js
+#apollo.config.js
 
 # Local Netlify folder
 .netlify
